@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Login -->
+    <string name="login_txt_login">Identifiant</string>
+    <string name="login_txt_password">Mot de passe</string>
+    <string name="login_txt_show_password">Afficher le mot de passe</string>
+    <string name="login_txt_fill_all_fields">Veuillez fournir votre identifiant et mot de passe.</string>
+    <string name="login_txt_version_prod">Version %s</string>
+    <string name="login_txt_version">Version %1$s (%2$s)</string>
+    <string name="login_txt_unknown_error">Une erreur est survenue.</string>
+
+    <!-- Mentions légales -->
+    <string name="legal_notices_label">Mentions légales</string>
+    <string name="legal_notices_txt_legal_notices">Conformément à la loi n°78-17 du 06/01/1978, la présente application fait l\'objet d\'une déclaration informatique et libertés. Vous disposez à tout moment d\'un droit d\'accès, de rectification et de suppression des données personnelles vous concernant. Si vous souhaitez exercer ce droit, il vous suffit d\'en faire la demande via courriel : cil-ratp@ratp.fr.</string>
+    <string name="legal_notices_txt_cnil_title">Mention légale CNIL</string>
+    <string name="legal_notices_txt_version_prod">Version %s</string>
+    <string name="legal_notices_txt_version">Version %1$s (%2$s)</string>
+    <string name="legal_notices_txt_license_title">Licences</string>
+
+    <!-- Menu -->
+    <string name="menu_logout_title">Déconnexion</string>
+    <string name="menu_legal_notices_title">Mentions légales</string>
+    <string name="description_first_last_name">prénom et nom</string>
+    <string name="description_birthday_date">date d\'anniversaire</string>
+    <string name="description_film_image">image du film</string>
+    <string name="detail_etxt_lastname">Nom</string>
+    <string name="detail_etxt_firstname">Prénom</string>
+    <string name="description_detail_btn_birthday">Anniversaire</string>
+    <string name="detail_film_label">Détail d\'un film</string>
+
+</resources>

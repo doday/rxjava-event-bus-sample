@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyTheme" parent="Base.Theme.AppCompat" >
+        <!-- Personnaliser le thème -->
+    </style>
+
+    <style name="MyTheme.NoActionBar" >
+        <!-- Personnaliser le thème -->
+    </style>
+
+</resources>

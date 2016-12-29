@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_film"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="@dimen/touch_target_56dp">
+
+
+    <TextView
+        android:id="@+id/list_film_title"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/description_first_last_name"
+        android:layout_gravity="center_vertical"/>
+
+
+
+</LinearLayout>
