@@ -28,6 +28,6 @@
     <string name="detail_etxt_firstname">Firstname</string>
     <string name="description_detail_btn_birthday">Birthday</string>
     <string name="detail_film_label">Film detail</string>
-    <string name="app_name">rxjavaeventbus</string>
+    <string name="app_name" translatable="false">Cinema</string>
 
 </resources>
