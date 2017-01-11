@@ -1,4 +1,4 @@
-package com.doday.rxjavaeventbussample.util;
+package com.doday.rxjavaeventbussample;
 
 import android.support.annotation.NonNull;
 

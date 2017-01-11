@@ -1,4 +1,4 @@
-package com.doday.rxjavaeventbussample.ui.activity;
+package com.doday.rxjavaeventbussample.controller.activity;
 
 
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.doday.rxjavaeventbussample;
+package com.doday.rxjavaeventbussample.rxjavaeventbus;
 
 import rx.Observable;
 import rx.subjects.PublishSubject;

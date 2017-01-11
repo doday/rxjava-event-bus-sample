@@ -1,4 +1,4 @@
-package com.doday.rxjavaeventbussample.viewmodel;
+package com.doday.rxjavaeventbussample.controller;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

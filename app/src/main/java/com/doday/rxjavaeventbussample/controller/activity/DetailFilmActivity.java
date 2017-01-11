@@ -1,4 +1,4 @@
-package com.doday.rxjavaeventbussample.ui.activity;
+package com.doday.rxjavaeventbussample.controller.activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.doday.rxjavaeventbussample.R;
-import com.doday.rxjavaeventbussample.model.Film;
+import com.doday.rxjavaeventbussample.model.pojo.Film;
 
 import org.joda.time.DateTime;
 

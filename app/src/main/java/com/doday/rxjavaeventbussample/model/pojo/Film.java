@@ -1,4 +1,4 @@
-package com.doday.rxjavaeventbussample.model;
+package com.doday.rxjavaeventbussample.model.pojo;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -1,11 +1,11 @@
-package com.doday.rxjavaeventbussample.manager;
+package com.doday.rxjavaeventbussample.model.network;
 
 import android.content.Context;
 
 
-import com.doday.rxjavaeventbussample.EventBus;
-import com.doday.rxjavaeventbussample.event.ListFilmEvent;
-import com.doday.rxjavaeventbussample.model.Film;
+import com.doday.rxjavaeventbussample.rxjavaeventbus.EventBus;
+import com.doday.rxjavaeventbussample.rxjavaeventbus.eventwrapper.ListFilmEvent;
+import com.doday.rxjavaeventbussample.model.pojo.Film;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.doday.rxjavaeventbussample.ui.adapter;
+package com.doday.rxjavaeventbussample.view.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.doday.rxjavaeventbussample.R;
-import com.doday.rxjavaeventbussample.model.Film;
-import com.doday.rxjavaeventbussample.util.DateUtils;
+import com.doday.rxjavaeventbussample.model.pojo.Film;
+import com.doday.rxjavaeventbussample.DateUtils;
 
 import java.util.ArrayList;
 

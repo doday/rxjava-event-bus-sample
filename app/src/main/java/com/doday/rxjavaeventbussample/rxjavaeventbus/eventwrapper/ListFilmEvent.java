@@ -1,6 +1,6 @@
-package com.doday.rxjavaeventbussample.event;
+package com.doday.rxjavaeventbussample.rxjavaeventbus.eventwrapper;
 
-import com.doday.rxjavaeventbussample.model.Film;
+import com.doday.rxjavaeventbussample.model.pojo.Film;
 
 import java.util.ArrayList;
 

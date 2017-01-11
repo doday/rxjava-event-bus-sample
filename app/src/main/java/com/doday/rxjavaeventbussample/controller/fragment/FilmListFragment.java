@@ -1,4 +1,4 @@
-package com.doday.rxjavaeventbussample.ui.fragment;
+package com.doday.rxjavaeventbussample.controller.fragment;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -9,16 +9,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.doday.rxjavaeventbussample.EventBus;
+import com.doday.rxjavaeventbussample.rxjavaeventbus.EventBus;
 import com.doday.rxjavaeventbussample.MyApplication;
 import com.doday.rxjavaeventbussample.R;
-import com.doday.rxjavaeventbussample.event.ListFilmEvent;
-import com.doday.rxjavaeventbussample.manager.FilmManager;
-import com.doday.rxjavaeventbussample.model.Film;
-import com.doday.rxjavaeventbussample.ui.activity.DetailFilmActivity;
-import com.doday.rxjavaeventbussample.ui.adapter.FilmAdapter;
-import com.doday.rxjavaeventbussample.util.DateUtils;
-import com.doday.rxjavaeventbussample.viewmodel.RecyclerItemClickListener;
+import com.doday.rxjavaeventbussample.rxjavaeventbus.eventwrapper.ListFilmEvent;
+import com.doday.rxjavaeventbussample.model.network.FilmManager;
+import com.doday.rxjavaeventbussample.model.pojo.Film;
+import com.doday.rxjavaeventbussample.controller.activity.DetailFilmActivity;
+import com.doday.rxjavaeventbussample.view.adapter.FilmAdapter;
+import com.doday.rxjavaeventbussample.DateUtils;
+import com.doday.rxjavaeventbussample.controller.RecyclerItemClickListener;
 
 import java.io.IOException;
 import java.util.ArrayList;
