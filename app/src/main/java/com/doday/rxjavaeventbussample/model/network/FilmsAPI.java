@@ -4,7 +4,7 @@ import android.content.Context;
 
 
 import com.doday.rxjavaeventbussample.rxjavaeventbus.EventBus;
-import com.doday.rxjavaeventbussample.rxjavaeventbus.eventwrapper.ListFilmEvent;
+import com.doday.rxjavaeventbussample.rxjavaeventbus.eventwrapper.FilmsEvent;
 import com.doday.rxjavaeventbussample.model.pojo.Film;
 
 import java.io.IOException;
@@ -26,32 +26,32 @@ import rx.functions.Action1;
  * Created by sessi on 21/10/16.
  */
 
-public class FilmManager {
+public class FilmsAPI {
 
 
 
     private int createUpdatestatus;
 
-    private static FilmManager ourInstance;
+    private static FilmsAPI ourInstance;
 
-    public static FilmManager getInstance(Context context) {
+    public static FilmsAPI getInstance(Context context) {
         if(ourInstance == null){
-            ourInstance = new FilmManager(context);
+            ourInstance = new FilmsAPI(context);
         }
         return ourInstance;
     }
-    private FilmManager(Context context) {
+    private FilmsAPI(Context context) {
     }
 
 
-    private ListFilmEvent films;
+    private FilmsEvent films;
 
 
 
-    Observable<ListFilmEvent> getFilmsObservable = Observable.create(
-            new Observable.OnSubscribe<ListFilmEvent>() {
+    Observable<FilmsEvent> getFilmsObservable = Observable.create(
+            new Observable.OnSubscribe<FilmsEvent>() {
                 @Override
-                public void call(Subscriber<? super ListFilmEvent> sub) {
+                public void call(Subscriber<? super FilmsEvent> sub) {
                     sub.onNext(films);
                     sub.onCompleted();
                 }
@@ -59,9 +59,9 @@ public class FilmManager {
     );
 
     private void sendFilms() {
-        getFilmsObservable.subscribe(new Action1<ListFilmEvent>() {
+        getFilmsObservable.subscribe(new Action1<FilmsEvent>() {
             @Override
-            public void call(ListFilmEvent film) {
+            public void call(FilmsEvent film) {
                 EventBus.sAppBus.post(film);
             }
         });
@@ -110,7 +110,7 @@ public class FilmManager {
 
 
                 try {
-                    films = new ListFilmEvent(repos.execute().body().results);
+                    films = new FilmsEvent(repos.execute().body().results);
                     sendFilms();
                 } catch (IOException e) {
                     e.printStackTrace();

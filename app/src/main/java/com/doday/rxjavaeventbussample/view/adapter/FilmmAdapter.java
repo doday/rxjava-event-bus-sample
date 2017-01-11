@@ -18,19 +18,19 @@ import java.util.ArrayList;
  * Created by sessi on 19/10/16.
  */
 
-public class FilmAdapter extends RecyclerView.Adapter<FilmAdapter.ViewHolder> {
+public class FilmmAdapter extends RecyclerView.Adapter<FilmmAdapter.ViewHolder> {
 
 
     private ArrayList<Film> films =  new ArrayList<>();
     private static final DateUtils dateUtils = DateUtils.getInstance();
     private View.OnClickListener mOnClickListener;
 
-    public FilmAdapter(Context context, ArrayList<Film> films) {
+    public FilmmAdapter(Context context, ArrayList<Film> films) {
         this(context);
         this.films = films;
     }
 
-    public FilmAdapter(Context context) {
+    public FilmmAdapter(Context context) {
     }
 
 
